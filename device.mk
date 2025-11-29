@@ -7,7 +7,7 @@
 
 PRODUCT_PLATFORM := ums512
 
-LOCAL_PATH := device/samsung/gta8wifi
+LOCAL_PATH := device/samsung/gta4lve
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
@@ -36,7 +36,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_EXCLUDE_DEFAULT_USB_INIT := false
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_USE_TOOLBOX := true
